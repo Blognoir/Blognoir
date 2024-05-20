@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOGNOIR</title>
+    <style>
+        body {
+            font-family: Montserrat;
+            margin: 0;
+            padding: 0;
+        }
+        .logo {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .section {
+            margin: 20px;
+        }
+        .section h2 {
+            font-size: 24px;
+            text-align: left;
+            margin-bottom: 10px;
+            margin-left: 10px;
+        }
+        .carousel {
+            display: flex;
+            overflow-x: auto;
+            gap: 10px;
+            padding: 10px;
+        }
+        .carousel img {
+            border-radius: 15px;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+        .carousel img.episode {
+            width: 267px; /* 16:9 ratio for 150px height */
+            height: 150px;
+        }
+        .carousel .item {
+            text-align: center;
+            min-width: 150px;
+        }
+        .carousel .item.episode {
+            min-width: 267px;
+        }
+        .carousel .item p {
+            font-size: small;
+            color: grey;
+        }
+        .disclaimer {
+            font-size: small;
+            color: grey;
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <img src="Logotipo.png" height="100" alt="Logo" />
+    </div>
+
+    <div class="section" id="noticias">
+        <h2>NOTÍCIAS</h2>
+        <div class="carousel">
+            <div class="item">
+                <a href="https://variety.com/2024/biz/global/miraculous-corp-zag-animation-mediawan-1236000515/amp/">
+                    <img src="21 Sem Título_20240520122042.png" alt="Notícia 1">
+                    <p>Miraculous Corp</p>
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://example.com/link2">
+                    <img src="https://via.placeholder.com/150.png?text=Noticia+2" alt="Notícia 2">
+                    <p>Notícia 2</p>
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://example.com/link3">
+                    <img src="https://via.placeholder.com/150.png?text=Noticia+3" alt="Notícia 3">
+                    <p>Notícia 3</p>
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://example.com/link4">
+                    <img src="https://via.placeholder.com/150.png?text=Noticia+4" alt="Notícia 4">
+                    <p>Notícia 4</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="section" id="episodios">
+        <h2>EPISÓDIOS</h2>
+        <div class="carousel">
+            <div class="item episode">
+                <a href="https://youtu.be/-fnCpi_hvbY?feature=shared">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1oQrGEAWatP3GVWFfRJ6pmx23rT2wk52RMO3XWcL-Kxa8W88vf3ZidYj7&s=10" alt="Episódio 1" class="episode">
+                    <p>Tormenta</p>
+                </a>
+            </div>
+            <div class="item episode">
+                <a href="https://youtu.be/YFrXGsdXNjM?feature=shared">
+                    <img src="https://i.ytimg.com/vi/YFrXGsdXNjM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDFuMnRRHjs6gm2VtFcnobjRPATkQ" alt="Episódio 2" class="episode">
+                    <p>Ilustrador do Mal</p>
+                </a>
+            </div>
+            <div class="item episode">
+                <a href="https://youtu.be/dstJldFauxM?feature=shared">
+                    <img src="https://i.ytimg.com/vi/dstJldFauxM/hqdefault.jpg" alt="Episódio 3" class="episode">
+                    <p>LadyWifi</p>
+                </a>
+            </div>
+            <div class="item episode">
+                <a href="https://youtu.be/WYez7EkJuZI?feature=shared">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSayYbdDYeEcZxnriJTioYk_iQYwWmcLVMBsdqRXXeWZ0gqbg6czMGqwQ8&s=10" alt="Episódio 4" class="episode">
+                    <p>Princesa Perfume</p>
+                </a>
+            </div>
+           <div class="item episode">
+                <a href="https://youtu.be/asIGy1F6oYc?feature=shared">
+                    <img src="https://i.ytimg.com/vi/asIGy1F6oYc/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCT1lCwZUztr--aEAB9DOCd54LXbw" alt="Episódio 5" class="episode">
+                    <p>Cupido Negro</p>
+                </a>
+            </div>
+           <div class="item episode">
+                <a href="https://youtu.be/rikfWmYC13w?feature=shared">
+                    <img src="https://i.ytimg.com/vi/rikfWmYC13w/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDhvaV-8rU4--SQBoiZFiSMTkndKQ" alt="Episódio 5" class="episode">
+                    <p>Sr. Pombo</p>
+                </a>
+            </div>
+        </div>
+        <div class="disclaimer">
+            Nenhum episódio oficial de Miraculous Ladybug é hospedado em nosso site devido a questões de direitos autorais. Você é redirecionado. 
+        </div>
+    </div>
+
+    <div class="section" id="aus">
+        <h2>AU's</h2>
+        <div class="carousel">
+            <div class="item">
+                <a href="https://www.instagram.com/themarvelousoficial?igsh=dGVxYXljZG5maXJj">
+                    <img src="419261927_289722497417344_4919370211635121524_n.jpg" alt="AU 1">
+                    <p>Marvelous - The Call of the Elemental Might</p>
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://www.instagram.com/miraculousbrasilofilme?igsh=NDcyNWprOGl6b2tv">
+                    <img src="https://d.rapidcdn.app/snapinsta?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJodHRwczovL3Njb250ZW50LmNkbmluc3RhZ3JhbS5jb20vdi90NTEuMjkzNTAtMTUvMzkxMjE5NDA1XzI4MzkzNTgzMTE0NzMwNl84MzM3MDE3OTI1Mjc3ODQ3ODlfbi5qcGc_c3RwPWRzdC1qcGdfZTM1X3M2NDB4NjQwX3NoMC4wOCZlZmc9ZXlKMlpXNWpiMlJsWDNSaFp5STZJbWx0WVdkbFgzVnliR2RsYmk0NU1UTjRPVEV6TG5Oa2NpNW1Namt6TlRBaWZRJl9uY19odD1zY29udGVudC5jZG5pbnN0YWdyYW0uY29tJl9uY19jYXQ9MTA2Jl9uY19vaGM9UWlHSy1aWlk2THNRN2tOdmdIdlEtRDImZWRtPUFQczE3Q1VCQUFBQSZjY2I9Ny01Jm9oPTAwX0FZQmh1UHdtMkRSWDNFekFrWThtQlgzSDhSQTZzTmRQZFRMeHVfVi1lVXNaM3cmb2U9NjY1MTdCRDcmX25jX3NpZD0xMGQxM2IiLCJmaWxlbmFtZSI6IlNuYXBpbnN0YS5hcHBfdGh1bWJfMzkxMjE5NDA1XzI4MzkzNTgzMTE0NzMwNl84MzM3MDE3OTI1Mjc3ODQ3ODlfbi5qcGcifQ.HraS7YqUVVZEEbx0lSoQB1xLebFPN5_Jh_l-7C8704E" alt="AU 2">
+                    <p>Miraculous Brasil - O Filme</p>
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://example.com/link11">
+                    <img src="https://via.placeholder.com/150.png?text=AU+3" alt="AU 3">
+                    <p>AU 3</p>
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://example.com/link12">
+                    <img src="https://via.placeholder.com/150.png?text=AU+4" alt="AU 4">
+                    <p>AU 4</p>
+                </a>
+           </div>
+           <div class="item">
+                <a href="https://example.com/link12">
+                    <img src="https://via.placeholder.com/150.png?text=AU+5" alt="AU 5">
+                    <p>AU5</p>
+                </a>
+          </div>
+         <div class="item">
+               <a href="https://example.com/link13">
+                    <img src="https://via.placeholder.com/150.png?text=AU+6" alt="AU 6">
+                    <p>AU6</p>
+          </div>
+          <div>
+</body>
+</html>
